@@ -23,14 +23,13 @@ fn main() {
     println!("{:?}", &v[0..v.len()]);
     println!("{:?}", &v[..]);
 
-
     print_str(&s);
     print_str(&s[..5]);
     print_vec(&v);
     print_vec(&v[..5]);
 
     // 可变切片
-    let mut v = vec![1,2];
+    let mut v = vec![1, 2];
     let vs = &mut v;
     vs.push(3);
     println!("{:?}", vs);

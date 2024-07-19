@@ -1,0 +1,19 @@
+[workspace]
+members = [
+    "closure",
+    "concur-spawn",
+    "concur-threadpool",
+    "fnptr",
+    "generic",
+    "generic-enum",
+    "iterator",
+    "iterator-ref",
+    "lifetime",
+    "ref-borrow",
+    "slice",
+    "smartptr-box",
+    "smartptr-rc",
+    "trait-impl",
+    "trait-partialeq",
+    "trait-partialord"
+]

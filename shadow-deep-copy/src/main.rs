@@ -24,12 +24,14 @@ fn main() {
         score: 59.0,
         pass: false,
     };
-    let s2 = s1; // s1 moved
-                 // println!("{:?}", s1);
+    // s1 moved
+    let s2 = s1;
+    // println!("{:?}", s1);
     println!("{:?}", s2);
 
     let class1 = Class::GradeOne(1);
-    let class2 = class1; // class1 moved
+    // class1 moved
+    let class2 = class1;
     // println!("{:?}", class1);
     println!("{:?}", class2);
 }

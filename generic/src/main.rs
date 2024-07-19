@@ -40,11 +40,22 @@ fn main() {
         width: 3,
         height: 5,
     };
-    println!("width: {}, height: {}", rect1.width(), rect1.height());
+    println!(
+        "width: {}, height: {}, area: {}",
+        rect1.width(),
+        rect1.height(),
+        rect1.area()
+    );
 
-    let rect2 = Rectangle2{ width: 3, height: 4.5 }; // T:i32, U:f64
+    let rect2 = Rectangle2 {
+        width: 3,
+        height: 4.5,
+    }; // T:i32, U:f64
     println!("width: {}, height: {}", rect2.width(), rect2.height());
 
-    let rect2 = Rectangle2{ width: 3.21, height: 4.56 }; // T:f64, U:f64
+    let rect2 = Rectangle2 {
+        width: 3.21,
+        height: 4.56,
+    }; // T:f64, U:f64
     println!("width: {}, height: {}", rect2.width(), rect2.height());
 }
