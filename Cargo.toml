@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "closure",
+    "concur-async",
     "concur-spawn",
     "concur-threadpool",
     "fnptr",
@@ -11,9 +12,11 @@ members = [
     "lifetime",
     "ref-borrow",
     "slice",
+    "shadow-deep-copy",
     "smartptr-box",
     "smartptr-rc",
     "trait-impl",
     "trait-partialeq",
     "trait-partialord"
-]
+, "concur-async2", "concur-async-std"]
+resolver = "2"
