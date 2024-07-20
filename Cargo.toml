@@ -18,5 +18,5 @@ members = [
     "trait-impl",
     "trait-partialeq",
     "trait-partialord"
-, "concur-async2", "concur-async-std"]
+, "concur-async2", "concur-async-std", "err", "err-type", "err-return"]
 resolver = "2"
